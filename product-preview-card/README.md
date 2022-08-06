@@ -24,7 +24,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-tailwindcss-TgaMAwG3GY](https://www.frontendmentor.io/solutions/product-preview-card-component-tailwindcss-TgaMAwG3GY)
 - Live Site URL: [https://frontend-mentor-nine-fawn.vercel.app/](https://frontend-mentor-nine-fawn.vercel.app/)
 
 ## Built with
