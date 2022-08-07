@@ -1,0 +1,14 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "Order Summary Component challenge for frontend-mentor",
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "main": "index.js",
+  "author": "Florent Vandroy",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
