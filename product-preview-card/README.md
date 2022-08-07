@@ -24,7 +24,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-tailwindcss-TgaMAwG3GY](https://www.frontendmentor.io/solutions/product-preview-card-component-tailwindcss-TgaMAwG3GY)
+- Solution URL: [https://florent6001.github.io/frontend-mentor/product-preview-card](https://florent6001.github.io/frontend-mentor/product-preview-card)
 - Live Site URL: [https://frontend-mentor-nine-fawn.vercel.app/](https://frontend-mentor-nine-fawn.vercel.app/)
 
 ## Built with
