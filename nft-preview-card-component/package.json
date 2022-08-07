@@ -1,0 +1,14 @@
+{
+  "name": "nft-preview-card-component",
+  "description": "NFT Preview Card Component challenge from Frontend Mentor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Florent Vandroy",
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
