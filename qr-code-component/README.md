@@ -15,8 +15,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Links
 
-- Solution URL: [CHANGE](CHANGE)
-- Live Site URL: [CHANGE](CHANGE)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-tailwindcss-jR3JaLAyph](https://www.frontendmentor.io/solutions/qr-code-component-tailwindcss-jR3JaLAyph)
+- Live Site URL: [https://qr-code-component-sepia.vercel.app/](https://qr-code-component-sepia.vercel.app/)
 
 ## Built with
 
