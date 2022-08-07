@@ -26,8 +26,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Change](Change)
-- Live Site URL: [Change](Change)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-tailwindcssvanilla-js-S55Z9gTlyW](https://www.frontendmentor.io/solutions/interactive-rating-component-tailwindcssvanilla-js-S55Z9gTlyW)
+- Live Site URL: [https://interactive-rating-component-phi-indol.vercel.app/](https://interactive-rating-component-phi-indol.vercel.app/)
 
 ## Built with
 
