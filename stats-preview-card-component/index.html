@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="flex h-screen">
+
+  <main class="m-auto max-w-5xl">
+
+    <div class="flex flex-col-reverse md:flex-row m-10 bg-dark-violet rounded-3xl">
+
+      <div class="w-full text-center md:text-left">
+        <div class="md:m-16 m-10">
+
+          <h1 class="text-4xl text-white md:text-3xl">
+            Get <span class="text-soft-violet">insights</span> that help your business grow.
+          </h1>
+          <p class="text-gray-400 text-lg mt-5 mb-7 md:text-md">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+          </p>
+
+          <div class="flex justify-between">
+            <div class="counter">
+              <p class="counter-number">
+                10k+
+              </p>
+              <p class="counter-text">
+                companies
+              </p>
+            </div>
+
+            <div class="counter">
+              <p class="counter-number">
+                314
+              </p>
+              <p class="counter-text">
+                templates
+              </p>
+            </div>
+
+            <div class="counter">
+              <p class="counter-number">
+                12M+
+              </p>
+              <p class="counter-text">
+                queries
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative w-full">
+        <picture>
+          <source srcset="images/image-header-mobile.jpg" media="(max-width: 640px)" />
+          <img src="images/image-header-desktop.jpg" alt="Image header"
+            class="rounded-t-3xl md:rounded-l-none md:rounded-r-3xl w-full h-full">
+        </picture>
+        <div class="bg-soft-violet absolute top-0 h-full w-full rounded-t-3xl md:rounded-r-3xl opacity-50">
+        </div>
+      </div>
+    </div>
+
+    <div class="text-white text-center m-10">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+    </div>
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "stats-preview-card-component",
+  "description": "Stats Preview Card Component challenge for frontend-mentor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "author": "Florent Vandroy",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: #0A0C1B;
+}
+
+
+h1 {
+    font-family: "Lexend Deca", sans-serif;
+    @apply font-bold;
+}
+
+.counter {
+    @apply font-bold my-5;
+}
+
+.counter-number {
+    @apply text-white text-2xl;
+}
+
+.counter-text {
+    font-family: "Inter", sans-serif;
+    @apply uppercase text-gray-500 pt-2;
+}
