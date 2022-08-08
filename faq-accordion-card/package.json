@@ -1,0 +1,14 @@
+{
+  "name": "faq-accordion-card",
+  "version": "1.0.0",
+  "description": "FAQ Accordion Card Challenge for frontend-mentor",
+  "main": "index.js",
+  "author": "Florent Vandroy",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  }
+}

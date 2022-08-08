@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="min-h-screen flex m-10">
+    <div class="m-auto flex flex-col lg:items-center bg-white rounded-3xl justify-center lg:flex-row lg:max-w-4xl">
+      <div class="lg:ml-0 lg:mr-10 -mt-[30%] lg:-mt-0">
+        <div class="overflow-hidden lg:w-80 lg:h-auto">
+          <div class="lg:-ml-[30%]">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/illustration-woman-online-desktop.svg">
+              <img src="images/illustration-woman-online-mobile.svg" alt="Woman online" class="w-2/3 mx-auto lg:w-full">
+            </picture>
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/bg-pattern-desktop.svg">
+              <img src="images/bg-pattern-mobile.svg" alt="Pattern background"
+                class="w-2/3 mx-auto -mt-[23%] lg:-mt-[75%] lg:w-full">
+            </picture>
+          </div>
+        </div>
+        <img src="images/illustration-box-desktop.svg" alt="Illustration box"
+          class="w-2/3 mx-auto -mt-[23%] lg:-mt-[91%] lg:-ml-[33%] lg:w-2/3 hidden lg:block">
+      </div>
+      <div class="m-10 lg:-mt-0 lg:w-full">
+        <div class="lg:pt-20 rounded-3xl w-full">
+          <h1 class="font-bold text-4xl text-center lg:text-left mb-10">FAQ</h1>
+
+          <div class="accordion-item">
+            <p class="question" onClick="showAnswer(0)">
+              How many team members can I invite?
+              <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
+            </p>
+            <p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.</p>
+          </div>
+
+          <div class="accordion-item">
+            <p class="question" onClick="showAnswer(1)">
+              What is the maximum file upload size?
+              <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
+            </p>
+            <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+          </div>
+
+          <div class="accordion-item">
+            <p class="question" onClick="showAnswer(2)">
+              How do I reset my password?
+              <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
+            </p>
+            <p class="answer">Click “Forgot password” from the login page or “Change password” from your profile
+              page.
+              A reset link will be emailed to you.</p>
+          </div>
+
+          <div class="accordion-item">
+            <p class="question" onClick="showAnswer(3)">
+              Can I cancel my subscription?
+              <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
+            </p>
+            <p class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+
+          <div class="accordion-item">
+            <p class="question" onClick="showAnswer(4)">
+              Do you provide additional support?
+              <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
+            </p>
+            <p class="answer">Chat and email support is available 24/7. Phone lines are open during normal
+              business
+              hours.</p>
+          </div>
+        </div>
+        <div class="pt-10 text-center">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

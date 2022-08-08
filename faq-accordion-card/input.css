@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(#AF67E9, #6565E7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.accordion-item {
+    border-color: #E7E7E9;
+    @apply border-b-2 mb-5 pb-3;
+}
+
+.question {
+    @apply flex items-center justify-between text-sm text-gray-600 cursor-pointer;
+}
+
+.question:hover {
+    @apply text-soft-red;
+}
+
+.question img {
+    @apply w-3 h-3;
+}
+
+.answer {
+    @apply py-4 text-gray-500 text-sm hidden;
+}
+
+.active .question {
+    @apply font-bold;
+}
+
+.active .answer {
+    @apply block;
+}
+
+.active img {
+    @apply rotate-180;
+}
