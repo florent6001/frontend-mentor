@@ -21,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Links
 
-- Solution URL: [CHANGE](CHANGE)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-tailwindcss-IbvT3RhmiA](https://www.frontendmentor.io/solutions/profile-card-component-tailwindcss-IbvT3RhmiA)
 - Live Site URL: [https://florent6001.github.io/frontend-mentor/profile-card-component/](https://florent6001.github.io/frontend-mentor/profile-card-component/)
 
 ## Built with
