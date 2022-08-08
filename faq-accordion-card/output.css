@@ -779,6 +779,10 @@ body {
     padding-top: 5rem;
   }
 
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
