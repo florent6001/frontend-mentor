@@ -563,10 +563,6 @@ video {
   height: 100vh;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -602,10 +598,6 @@ video {
 
 .p-10 {
   padding: 2.5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .text-center {
@@ -648,8 +640,7 @@ body {
 }
 
 .column button {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin-top: 4rem;
   border-radius: 1.5rem;
   border-width: 2px;
   --tw-bg-opacity: 1;
@@ -681,10 +672,6 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-screen {
-    height: 100vh;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
