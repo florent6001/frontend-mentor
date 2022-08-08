@@ -1,0 +1,14 @@
+{
+  "name": "social-proof-section",
+  "version": "1.0.0",
+  "description": "Social Proof Section challegne for frontend mentor",
+  "main": "index.js",
+  "author": "Florent Vandroy",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
