@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: top -650px left -650px, bottom -650px right -650px;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    @apply bg-dark-cyan;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-size: 500px;
+        background-position: top -250px left -250px, bottom -250px right -250px;
+    }
+}
+
+h1 {
+    @apply font-bold;
+}
+
+section {
+    @apply w-full text-center m-5;
+}
+
+section h2 {
+    @apply font-bold;
+}
+
+section p {
+    letter-spacing: 2px;
+    @apply text-sm;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.59);
+}
