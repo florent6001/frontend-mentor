@@ -24,7 +24,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [CHANGE](CHANGE)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-tailwindcss-73dCOaqRVv](https://www.frontendmentor.io/solutions/3column-preview-card-component-tailwindcss-73dCOaqRVv)
 - Live Site URL: [https://florent6001.github.io/frontend-mentor/3-column-preview-card-component/](https://florent6001.github.io/frontend-mentor/3-column-preview-card-component/)
 
 ## Built with
