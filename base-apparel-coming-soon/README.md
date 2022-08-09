@@ -28,12 +28,13 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [CHANGE](CHANGE)
-- Live Site URL: [https://florent6001.github.io/base-apparel-coming-soon/](https://florent6001.github.io/base-apparel-coming-soon/)
+- Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-tailwindcss-and-vanillajs-YnwRouBJ5l](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-tailwindcss-and-vanillajs-YnwRouBJ5l)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/base-apparel-coming-soon/](https://florent6001.github.io/frontend-mentor/base-apparel-coming-soon/)
 
 ## Built with
 
 - [TailWindCSS](https://tailwindcss.com/) - CSS Framework
+- Vanilla JS
 
 
 ## Author
