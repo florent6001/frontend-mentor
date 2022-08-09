@@ -8,3 +8,12 @@ body {
     background-color: #0D1A2D;
     font-family: "Outfit", sans-serif;
 }
+
+.img-container:hover div {
+    opacity: 0.8;
+}
+
+.img-container div {
+    transition: 1s;
+    opacity: 0
+}
