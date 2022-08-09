@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Cards */
+.card {
+    @apply bg-white shadow-xl m-3 text-left p-10 border-t-8 rounded-lg;
+}
+
+.card-title {
+    @apply text-xl font-bold;
+}
+
+.card-content {
+    @apply pt-3 text-gray-400 text-sm tracking-wide;
+}
+
+.card img {
+    @apply float-right pt-10;
+}
