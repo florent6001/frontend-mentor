@@ -28,11 +28,15 @@
           <span class="block font-light">$20/mo. thereafter</span>
         </a>
         <div class="bg-white w-full mt-10 p-5 rounded-xl">
-          <input type="text" placeholder="First Name">
-          <input type="text" placeholder="First Name">
-          <input type="email" placeholder="Email Address">
-          <input type="password" placeholder="Password">
-          <button type="submit" class="uppercase block bg-green w-full py-6 text-white shadow-green">Claim your free trial</button>
+          <input type="text" id="first_name" placeholder="First Name">
+          <p id="first_name_error" class="error"></p>
+          <input type="text" id="last_name" placeholder="Last Name">
+          <p id="last_name_error" class="error"></p>
+          <input type="email" id="email" placeholder="Email Address">
+          <p id="email_error" class="error"></p>
+          <input type="password" id="password" placeholder="Password">
+          <p id="password_error" class="error"></p>
+          <button onClick="submitForm(event)" class="uppercase block bg-green w-full py-6 text-white shadow-green rounded-xl">Claim your free trial</button>
           <p class="py-5 text-center text-gray-400 font-semibold">
             By clicking the button, you are agreeing to our <a href="#" class="text-red">Terms and Services</a>
           </p>
@@ -46,5 +50,7 @@
       </p>
     </footer>
   </main>
+
+  <script src="app.js"></script>
 </body>
 </html>

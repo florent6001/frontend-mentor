@@ -27,8 +27,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-tailwindcss-jR3JaLAyph](https://www.frontendmentor.io/solutions/qr-code-component-tailwindcss-jR3JaLAyph)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/qr-code-component/](https://florent6001.github.io/frontend-mentor/qr-code-component/)
+- Solution URL: [CHANGE](CHANGE)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/intro-component-with-signup-form/](https://florent6001.github.io/frontend-mentor/intro-component-with-signup-form/)
 
 ## Built with
 

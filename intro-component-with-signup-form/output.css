@@ -624,18 +624,9 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -645,11 +636,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -735,6 +721,10 @@ body {
   box-shadow: 0px 9px 0px 0px rgba(0, 122, 69, 0.8);
 }
 
+.shadow-green:hover {
+  background-color: rgba(56, 204, 140, 0.8)
+}
+
 input {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -756,11 +746,28 @@ input::placeholder {
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
-  .md\:m-10 {
-    margin: 2.5rem;
-  }
+.is-invalid {
+  background-image: url('images/icon-error.svg');
+  background-repeat: no-repeat;
+  background-position: right 20px top 20px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 122 122 / var(--tw-border-opacity));
+}
 
+.error {
+  float: right;
+  padding-bottom: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 122 122 / var(--tw-text-opacity));
+}
+
+.error::first-letter {
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
   .md\:mr-10 {
     margin-right: 2.5rem;
   }

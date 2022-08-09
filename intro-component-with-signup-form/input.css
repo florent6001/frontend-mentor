@@ -22,10 +22,25 @@ body {
     box-shadow: 0px 9px 0px 0px rgba(0, 122, 69, 0.8);
 }
 
+.shadow-green:hover {
+    background-color: rgba(56, 204, 140, 0.8)
+}
+
 input {
     @apply block border px-5 py-5 my-5 w-full rounded-lg;
 }
 
 input::placeholder {
     @apply font-bold;
+}
+
+.is-invalid {
+    background-image: url('images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: right 20px top 20px;
+    @apply border-red;
+}
+
+.error {
+    @apply float-right text-sm text-red pb-5 first-letter:capitalize;
 }
