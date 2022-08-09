@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="md:flex md:items-center md:justify-between h-screen">
+    <div class="max-w-xl mx-auto">
+      <div class="m-10">
+        <div class="mx-auto">
+          <img src="images/logo.svg" alt="Logo Base Apparel">
+        </div>
+      </div>
+      <img src="images/hero-mobile.jpg" alt="Hero image" class="w-full md:hidden">
+      <div class="m-10">
+        <div class="mx-auto text-center md:text-left">
+          <h1 class="text-5xl uppercase tracking-[15px]">
+            <span class="text-desaturated-red">We're</span> <br />coming <br />soon
+          </h1>
+          <p class="text-desaturated-red font-semibold pt-5 text-xl">
+            Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </p>
+          <div class="mt-10 relative rounded-3xl">
+            <input id="email" type="email" class="border bg-transparent w-full h-14 px-5 border-desaturated-red rounded-3xl pr-20 mr-20" placeholder="Email Address">
+            <p id="error-message" class="text-left px-5 pt-2 text-red-400 text-sm">&nbsp;</p>
+            <button onClick="sendForm(event)"><img src="images/icon-arrow.svg" alt="Submit icon" class="bg-linear rounded-3xl py-3 px-7 h-14 top-0 right-0 absolute hover:shadow-2xl"></button>
+          </div>
+        </div>
+      </div>
+      <p class="text-center py-5">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+      </p>
+    </div>
+    <img src="images/hero-desktop.jpg" alt="Hero image" class="h-full max-h-screen w-auto hidden md:block">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
