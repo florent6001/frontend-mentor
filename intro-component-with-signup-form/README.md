@@ -27,12 +27,13 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [CHANGE](CHANGE)
+- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-signup-form-tailwindcss-and-vanillajs-1oEtQEVjfZ](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-tailwindcss-and-vanillajs-1oEtQEVjfZ)
 - Live Site URL: [https://florent6001.github.io/frontend-mentor/intro-component-with-signup-form/](https://florent6001.github.io/frontend-mentor/intro-component-with-signup-form/)
 
 ## Built with
 
 - [TailWindCSS](https://tailwindcss.com/) - CSS Framework
+- Vanilla Javascript
 
 
 ## Author
