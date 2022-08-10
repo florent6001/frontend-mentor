@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/bg-desktop.svg');
+    background-color: #674BB1; 
+    font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-position-y: top;
+        background-position-x: center;
+        background-size: 100%;
+        background-image: url('images/bg-mobile.svg');
+    }
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+}

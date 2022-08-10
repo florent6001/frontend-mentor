@@ -1,0 +1,14 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section",
+  "version": "1.0.0",
+  "description": "Huddle Landing Page With Single Introductory Section for frontend-mentor",
+  "main": "index.js",
+  "author": "Florent Vandroy",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  }
+}
