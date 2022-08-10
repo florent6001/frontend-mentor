@@ -1,0 +1,14 @@
+{
+  "name": "single-price-grid-component",
+  "version": "1.0.0",
+  "description": "Single Price Grid component for frontend-mentor",
+  "main": "index.js",
+  "author": "Florent vandroy",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  }
+}
