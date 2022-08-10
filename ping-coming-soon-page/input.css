@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::placeholder {
+    @apply text-gray-300;
+}
+
+i.fa-brands {
+    @apply mx-2 text-lg text-custom-blue;
+}
+
+button:hover {
+    @apply bg-blue-400;
+}
