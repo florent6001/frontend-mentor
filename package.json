@@ -1,0 +1,9 @@
+{
+  "name": "frontend-mentor",
+  "version": "1.0.0",
+  "description": "This repository have for goal to regroup all the challenges i've done for frontend-mentor",
+  "main": "index.js",
+  "repository": "https://github.com/florent6001/frontend-mentor.git",
+  "author": "Florent Vandroy <florentvandroy@gmail.com>",
+  "license": "MIT"
+}
