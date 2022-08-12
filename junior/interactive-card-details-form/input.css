@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Space Grotesk";
+    font-weight: 500;
+}
+
+.bg-card {
+    background-image: url('images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    @apply uppercase tracking-widest;
+}
+
+@media screen and (max-width: 1024px) {
+    .bg-card {
+        background-image: url('images/bg-main-mobile.png');
+    }
+}
+
+input {
+    @apply border-2 block w-full px-3 py-2 my-2 rounded-lg;
+}
+
+.field {
+    @apply my-6;
+}
