@@ -1,0 +1,9 @@
+Stats preview card component (newbie)
+    - Fix too much rounded
+    - image proportions display block and max width 100
+    - Remove fixed height
+
+Order summary component (newbie)
+    - margin top to the button
+    - box shadow button
+    - border radius to light purple div icon music and price
