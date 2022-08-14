@@ -14,61 +14,68 @@
 </head>
 <body>
 
-  <main class="flex lg:flex-row flex-col min-h-screen">
-    <div class="lg:w-1/4 bg-card lg:bg-none flex items-center">
-      <div class="p-10 lg:p-0 flex">
-        <div class="relative md:w-1/2">
-          <img src="images/bg-card-back.png" alt="Card back" class="w-2/3 lg:w-auto float-right">
-          <img src="images/bg-card-front.png" alt="Card front" class="w-2/3 lg:w-auto absolute -bottom-[12%] lg:-right-[10%]">
-        </div>
-        <div class="w-1/2">
-          <div class="bg-card"></div>
-        </div>
+  <main class="flex lg:flex-row flex-col">
+    <div class="w-full bg-card flex flex-col items-center justify-center text-white uppercase tracking-widest">
+      <div class="lg:relative absolute -mb-[45%] ml-[5%] mr-[30%] lg:m-0 z-10 lg:z-0">
+        <img src="images/bg-card-front.png" alt="Card front" class="w-full">
+        <img src="images/card-logo.svg" alt="Card logo" class="absolute top-[10%] left-[6%]">
+        <p class="absolute left-[6%] bottom-[10%]" id="card_name_text">Jane Appleseed</p>
+        <p class="absolute left-[6%] top-[55%] lg:text-3xl text-xl" id="card_number_text">0000 0000 0000 0000</p>
+        <p class="absolute right-[10%] bottom-[10%]">
+          <span id="card_month_text">00</span>/<span id="card_year_text">00</span>
+        </p>
+      </div>
+      <div class="relative ml-[30%] mt-[5%] mr-[5%] lg:mr-0">
+        <img src="images/bg-card-back.png" alt="Card back" class="w-full">
+        <p class="absolute right-[12%] lg:bottom-[45%] bottom-[43%] text-xl" id="card_cvc_text">123</p>
       </div>
     </div>
-    <div class="w-full flex items-center justify-center">
-      <div class="p-10 pt-20 w-full max-w-xl">
+    <div class="w-full flex lg:items-center justify-center min-h-screen">
+      <form id="form" class="p-10 pt-[200px] lg:pt-0 w-full max-w-xl">
         <div class="field">
           <label for="name">Cardholder Name</label>
-          <input type="text" placeholder="e.g. Jane Appleseed">
+          <input type="text" id="card_name" placeholder="e.g. Jane Appleseed" onkeyup="updateCard(this)">
+          <p class="text-red-500 hidden" id="card_name_error"></p>
         </div>
         <div class="field">
           <label for="number">Card Number</label>
-          <input type="number" placeholder="e.g. 1234 5678 9123 0000">
+          <input type="text" id="card_number" placeholder="e.g. 1234 5678 9123 0000" onkeyup="updateCard(this)">
+          <p class="text-red-500 hidden" id="card_number_error"></p>
         </div>
         <div class="field flex">
           <div class="mr-10">
             <label for="month">Exp. Date (MM/YY)</label>
             <div class="flex">
-              <input type="number" id="month" class="mr-1" placeholder="MM">
-              <input type="number" id="year" class="ml-1" placeholder="YY">
+              <input type="text" class="mr-1" id="card_month" placeholder="MM" onkeyup="updateCard(this)">
+              <input type="text" class="ml-1" id="card_year" placeholder="YY" onkeyup="updateCard(this)">
             </div>
+            <p class="text-red-500 hidden" id="card_date_error"></p>
           </div>
           <div>
             <label for="cvc">CVC</label>
-            <input type="number" id="cvc" placeholder="e.g. 123">
+            <input type="text" id="card_cvc" placeholder="e.g. 123" onkeyup="updateCard(this)">
+            <p class="text-red-500 hidden" id="card_cvc_error"></p>
           </div>
         </div>
-        <button type="submit" class="bg-black rounded-lg w-full text-white py-4">Confirm</button>
+        <button onClick="sendForm(event)" class="bg-very-dark-violet rounded-lg w-full text-white py-4">Confirm</button>
+
+        <div class="text-center py-5">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+        </div>
+      </form>
+
+      <!-- Validation -->
+      <div class="p-10 pt-[170px] lg:pt-0 w-full max-w-xl flex-col items-center hidden" id="completed">
+        <img src="images/icon-complete.svg" alt="Icon Complete">
+        <h2 class="uppercase text-very-dark-violet text-4xl py-5 tracking-widest">Thank you!</h2>
+        <p class="text-dark-grayish-violet pb-5">We've added your card details</p>
+        <button type="submit" onClick="alert('Finish')" class="bg-[#21092F] rounded-lg w-full text-white py-4">Confirm</button>
       </div>
     </div>
   </main>
 
-  <!-- 0000 0000 0000 0000
-  Jane Appleseed
-  00/00
+  <script src="app.js"></script>
 
-  000
-
-  Completed state start -->
-
-  <!-- Thank you!
-  We've added your card details
-  Continue -->
-  
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
 </body>
 </html>

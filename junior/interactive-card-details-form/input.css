@@ -10,23 +10,34 @@ body {
 .bg-card {
     background-image: url('images/bg-main-desktop.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50% 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .bg-card {
+        background-image: url('images/bg-main-mobile.png');
+        background-size: 100%;
+    }
 }
 
 label {
-    @apply uppercase tracking-widest;
-}
-
-@media screen and (max-width: 1024px) {
-    .bg-card {
-        background-image: url('images/bg-main-mobile.png');
-    }
+    @apply uppercase tracking-widest text-very-dark-violet;
 }
 
 input {
     @apply border-2 block w-full px-3 py-2 my-2 rounded-lg;
+    /* focus:border-[#600594] */
 }
+
+input:focus, input:active {
+    outline-color: #600594 !important;
+}
+
 
 .field {
     @apply my-6;
+}
+
+.error_field {
+    border-color: hsl(0, 100%, 66%);
 }
