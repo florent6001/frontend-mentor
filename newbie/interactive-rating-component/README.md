@@ -27,7 +27,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-tailwindcssvanilla-js-S55Z9gTlyW](https://www.frontendmentor.io/solutions/interactive-rating-component-tailwindcssvanilla-js-S55Z9gTlyW)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/interactive-rating-component/](https://florent6001.github.io/frontend-mentor/interactive-rating-component/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/interactive-rating-component/](https://florent6001.github.io/frontend-mentor/newbie/interactive-rating-component/)
 
 ## Built with
 

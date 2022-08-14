@@ -29,7 +29,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-tailwindcss-and-vanillajs-YnwRouBJ5l](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-tailwindcss-and-vanillajs-YnwRouBJ5l)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/base-apparel-coming-soon/](https://florent6001.github.io/frontend-mentor/base-apparel-coming-soon/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/base-apparel-coming-soon/](https://florent6001.github.io/frontend-mentor/newbie/base-apparel-coming-soon/)
 
 ## Built with
 

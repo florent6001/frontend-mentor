@@ -18,7 +18,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-tailwindcss-YJLN7I2JlI](https://www.frontendmentor.io/solutions/nft-preview-card-component-tailwindcss-YJLN7I2JlI)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/nft-preview-card-component](https://florent6001.github.io/frontend-mentor/nft-preview-card-component)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/nft-preview-card-component](https://florent6001.github.io/frontend-mentor/newbie/nft-preview-card-component)
 
 ## Built with
 

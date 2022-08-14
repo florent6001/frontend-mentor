@@ -24,7 +24,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-tailwindcss-zzTnD_FSC5](https://www.frontendmentor.io/solutions/social-proof-section-tailwindcss-zzTnD_FSC5)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/social-proof-section/](https://florent6001.github.io/frontend-mentor/social-proof-section/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/social-proof-section/](https://florent6001.github.io/frontend-mentor/newbie/social-proof-section/)
 
 ## Built with
 

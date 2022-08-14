@@ -25,7 +25,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-tailwindcss-vanillajs-o4iw3-XllS](https://www.frontendmentor.io/solutions/article-preview-component-tailwindcss-vanillajs-o4iw3-XllS)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/article-preview-component/](https://florent6001.github.io/frontend-mentor/article-preview-component/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/article-preview-component/](https://florent6001.github.io/frontend-mentor/newbie/article-preview-component/)
 
 ## Built with
 

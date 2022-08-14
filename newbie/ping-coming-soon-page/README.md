@@ -28,7 +28,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/ping-signe-column-coming-soon-page-tailwindcss-9WUjHR318V](https://www.frontendmentor.io/solutions/ping-signe-column-coming-soon-page-tailwindcss-9WUjHR318V)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/ping-coming-soon-page](https://florent6001.github.io/frontend-mentor/ping-coming-soon-page)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/ping-coming-soon-page](https://florent6001.github.io/frontend-mentor/newbie/ping-coming-soon-page)
 
 ## Built with
 

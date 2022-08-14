@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-tailwindcss-jR3JaLAyph](https://www.frontendmentor.io/solutions/qr-code-component-tailwindcss-jR3JaLAyph)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/qr-code-component/](https://florent6001.github.io/frontend-mentor/qr-code-component/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/qr-code-component/](https://florent6001.github.io/frontend-mentor/newbie/qr-code-component/)
 
 ## Built with
 

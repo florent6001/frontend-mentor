@@ -26,7 +26,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-card-tailwindcss-vanilla-javascript-3-lKkOQNDV](https://www.frontendmentor.io/solutions/faq-accordion-card-tailwindcss-vanilla-javascript-3-lKkOQNDV)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/faq-accordion-card/](https://florent6001.github.io/frontend-mentor/faq-accordion-card/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/faq-accordion-card/](https://florent6001.github.io/frontend-mentor/newbie/faq-accordion-card/)
 
 ## Built with
 

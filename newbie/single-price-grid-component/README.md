@@ -25,7 +25,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-tailwindcss-ShKaznBmhG](https://www.frontendmentor.io/solutions/single-price-grid-component-tailwindcss-ShKaznBmhG)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/single-price-grid-component/](https://florent6001.github.io/frontend-mentor/single-price-grid-component/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/single-price-grid-component/](https://florent6001.github.io/frontend-mentor/newbie/single-price-grid-component/)
 
 ## Built with
 

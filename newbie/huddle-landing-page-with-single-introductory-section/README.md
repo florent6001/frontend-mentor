@@ -25,7 +25,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-tailwindcss-IzAmXhvWc6](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-tailwindcss-IzAmXhvWc6)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/huddle-landing-page-with-single-introductory-section/](https://florent6001.github.io/frontend-mentor/huddle-landing-page-with-single-introductory-section/)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/newbie/huddle-landing-page-with-single-introductory-section/](https://florent6001.github.io/frontend-mentor/newbie/huddle-landing-page-with-single-introductory-section/)
 
 ## Built with
 
