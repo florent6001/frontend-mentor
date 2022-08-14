@@ -1,4 +1,0 @@
-Order summary component (newbie)
-    - margin top to the button
-    - box shadow button
-    - border radius to light purple div icon music and price
