@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/florent6001/frontend-mentor.git",
   "author": "Florent Vandroy <florentvandroy@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  }
 }

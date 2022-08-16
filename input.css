@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply bg-slate-400 lg:m-5 my-5 p-10 rounded-xl w-full;
+}
+
+.card-title {
+    @apply uppercase text-xl text-white pb-5;
+}
+
+a:hover {
+    @apply underline text-white;
+}
