@@ -1,0 +1,14 @@
+{
+  "name": "expenses-chart-component",
+  "version": "1.0.0",
+  "description": "Expense chart component challenge for frontend-mentor",
+  "main": "index.js",
+  "author": "Florent Vandroy",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  }
+}

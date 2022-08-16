@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen flex justify-center items-center p-10">
+  <main class="max-w-xl">
+    <div class="bg-soft-red text-white py-5 px-10 rounded-3xl flex flex-row items-center justify-between">
+      <div> 
+        <h1 class="text-sm">My balance</h1>
+        <h2 class="uppercase text-2xl py-1">$921.48</h2>
+      </div>
+      <div>
+        <img src="images/logo.svg" alt="Logo img">
+      </div>
+    </div>
+    <div class="bg-white rounded-3xl mt-5 py-5 px-10">
+      <h2 class="font-bold text-xl mb-10">Spending - Last 7 days</h2>
+
+      <div id="chart-container" class="flex items-end">
+      </div>
+      <!-- mon
+      tue
+      wed
+      thu
+      fri
+      sat
+      sun -->
+
+      <hr class="my-5"> 
+
+      <div class="flex justify-between items-end">
+        <div class="w-full">
+          <h3 class="text-medium-brown text-sm">Total this month</h3>
+          <h4 class="font-bold text-3xl">$478.33</h4>
+        </div>
+        <div class="w-full text-right">
+          <h3 class="font-bold">+2.4%</h3>
+          <h4 class="text-medium-brown text-sm">from last month</h4>
+        </div>
+      </div>   
+    </div>
+
+    <div class="text-center py-5">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
