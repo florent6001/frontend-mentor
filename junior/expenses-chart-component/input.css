@@ -6,3 +6,12 @@ body {
     font-family: "DM Sans", sans-serif;
     @apply bg-cream;
 }
+
+#chart-container .flex:hover #hover-amount {
+    visibility: visible;
+}
+
+
+#chart-container .flex #hover-amount {
+    visibility: hidden;
+}
