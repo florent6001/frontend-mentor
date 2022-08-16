@@ -18,8 +18,7 @@ data.then(data => {
         // Make the hoverable amount
         var amount = document.createElement("div")
         amount.innerHTML = `$${element.amount}`
-        amount.classList.add('bg-dark-brown', 'text-white', 'rounded', 'p-2', 'mb-2', 'font-bold', 'text-xs')
-        amount.id = 'hover-amount'
+        amount.classList.add('bg-dark-brown', 'text-white', 'rounded', 'p-2', 'mb-2', 'font-bold', 'text-xs', 'hover-amount')
         div.appendChild(amount)
         
         // Make the bar chart

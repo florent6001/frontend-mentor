@@ -7,11 +7,11 @@ body {
     @apply bg-cream;
 }
 
-#chart-container .flex:hover #hover-amount {
+#chart-container .flex:hover .hover-amount {
     visibility: visible;
 }
 
 
-#chart-container .flex #hover-amount {
+#chart-container .flex .hover-amount {
     visibility: hidden;
 }
