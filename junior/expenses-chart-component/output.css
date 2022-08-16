@@ -619,20 +619,12 @@ video {
   width: 100%;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-xl {
-  max-width: 36rem;
-}
-
-.max-w-lg {
-  max-width: 32rem;
-}
-
 .max-w-3xl {
   max-width: 48rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .flex-row {
@@ -693,6 +685,10 @@ video {
 
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .py-5 {
@@ -777,10 +773,26 @@ body {
   background-color: hsl(27 66% 92% / var(--tw-bg-opacity));
 }
 
-#chart-container .flex:hover #hover-amount {
+#chart-container .flex:hover .hover-amount {
   visibility: visible;
 }
 
-#chart-container .flex #hover-amount {
+#chart-container .flex .hover-amount {
   visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 }
