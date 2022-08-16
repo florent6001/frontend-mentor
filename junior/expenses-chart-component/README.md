@@ -27,7 +27,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub/expenses-chart-component-tailwindcss-and-vanilla-js-2B_pCxRxoz](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub/expenses-chart-component-tailwindcss-and-vanilla-js-2B_pCxRxoz)
+- Solution URL: [https://www.frontendmentor.io/solutions/expenses-chart-component-tailwindcss-and-vanillajs-9k2bLaC1z8](https://www.frontendmentor.io/solutions/expenses-chart-component-tailwindcss-and-vanillajs-9k2bLaC1z8)
 - Live Site URL: [https://florent6001.github.io/frontend-mentor/junior/expenses-chart-component](https://florent6001.github.io/frontend-mentor/junior/expenses-chart-component)
 
 ## Built with
