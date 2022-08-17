@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FAFAFA;
+}
+
+.font-bold, .font-semibold {
+    font-family: "Epilogue", sans-serif;
+}
+
+.navbar li {
+    display: inline;
+    @apply mx-5;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}

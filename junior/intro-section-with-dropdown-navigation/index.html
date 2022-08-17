@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Custom fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body class="p-5 lg:p-10">
+
+  <header class="flex justify-between items-center mb-7 lg:mb-10">
+    <img src="images/logo.svg" alt="Snap logo">
+    <div class="navbar">
+      <li>Features</li>
+      <li>Company</li>
+      <li>Careers</li>
+      <li>About</li>
+    </div>
+    <ul class="navbar hidden lg:block">
+      <li><a href="#">Login</a></li>
+      <li><a href="#" class="border-2 border-almost-black px-5 py-3 rounded-xl">Register</a></li>
+    </ul>
+    <img src="images/icon-menu.svg" alt="Menu togler" class="lg:hidden">
+  </header>
+
+  <main class="flex lg:flex-row-reverse items-center justify-center lg:max-w-5xl lg:mx-auto">
+    <picture>
+      <source media="(min-width: 1024px)" srcset="images/image-hero-desktop.png">
+      <img src="images/image-hero-mobile.png" alt="Hero image">
+    </picture>
+    <div class="text-center mt-10 lg:text-left lg:mt-0 lg:pr-10">
+      <h1 class="font-bold text-4xl lg:text-7xl"><span class="lg:block">Make</span> remote work</h1>
+      <p class="text-3xl py-5">
+        Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+      </p>
+      <a href="#" class="bg-almost-black px-5 py-3 text-almost-white rounded-xl tracking-widest mt-10 inline-block">Learn more</a>
+    </div>
+  </main>
+
+  <div class="text-center py-20">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+  </div>
+</body>
+</html>
