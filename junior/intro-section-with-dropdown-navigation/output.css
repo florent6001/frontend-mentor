@@ -983,6 +983,11 @@ body {
     margin-right: auto;
   }
 
+  .lg\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
   .lg\:ml-10 {
     margin-left: 2.5rem;
   }
