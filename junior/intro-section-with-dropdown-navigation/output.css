@@ -555,6 +555,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -598,6 +602,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -618,10 +626,6 @@ video {
   display: inline-block;
 }
 
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -634,16 +638,12 @@ video {
   height: 100%;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-full {
@@ -696,34 +696,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-items-end {
-  justify-items: end;
-}
-
-.self-end {
-  align-self: flex-end;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-
-.overflow-x-clip {
-  overflow-x: clip;
-}
-
-.overflow-y-clip {
-  overflow-y: clip;
-}
-
-.overflow-y-visible {
-  overflow-y: visible;
-}
-
-.overflow-x-scroll {
-  overflow-x: scroll;
 }
 
 .overflow-y-scroll {
@@ -802,10 +774,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-4xl {
@@ -974,6 +942,8 @@ body {
 
 .clients {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   padding-top: 5rem;
 }
 
@@ -984,10 +954,9 @@ body {
 }
 
 .clients img {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  padding-right: 2.5rem;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
 }
 
 .hover\:border-black:hover {
@@ -1046,12 +1015,6 @@ body {
     height: auto;
   }
 
-  .lg\:min-h-max {
-    min-height: -webkit-max-content;
-    min-height: -moz-max-content;
-    min-height: max-content;
-  }
-
   .lg\:w-full {
     width: 100%;
   }
@@ -1080,16 +1043,8 @@ body {
     justify-content: space-between;
   }
 
-  .lg\:overflow-hidden {
-    overflow: hidden;
-  }
-
   .lg\:overflow-visible {
     overflow: visible;
-  }
-
-  .lg\:overflow-y-hidden {
-    overflow-y: hidden;
   }
 
   .lg\:bg-transparent {

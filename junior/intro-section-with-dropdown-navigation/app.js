@@ -5,10 +5,10 @@ var toggleNavbar = function () {
     navbar = document.getElementById('mobile_nav');
 
     if(navbar.classList.contains('hidden')) {
-        navbar.classList.add('bg-behind-nav-black', 'flex', 'w-full', 'h-full', 'fixed', 'top-0', 'right-0')
+        behind_navbar.classList.add('bg-behind-nav-black', 'absolute', 'w-full', 'h-full', 'top-0', 'right-0')
         navbar.classList.remove('hidden')
     } else {
-        behind_navbar.classList.remove('bg-behind-nav-black', 'flex', 'w-full', 'h-full', 'fixed', 'top-0', 'right-0')
+        behind_navbar.classList.remove('bg-behind-nav-black', 'absolute', 'w-full', 'h-full', 'top-0', 'right-0')
         navbar.classList.add('hidden')
     }
 }
