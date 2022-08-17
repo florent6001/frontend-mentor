@@ -6,15 +6,80 @@ body {
     background-color: #FAFAFA;
 }
 
+/* Fonts */
 .font-bold, .font-semibold {
     font-family: "Epilogue", sans-serif;
 }
 
+.font-semibold {
+    font-weight: 500;
+}
+
+/* Navbar */
+
+.navbar {
+    @apply flex flex-col lg:flex-row;
+}
+
 .navbar li {
     display: inline;
-    @apply mx-5;
+    @apply mx-5 text-medium-gray font-semibold py-[10px];
+}
+
+.navbar li a:hover {
+    @apply text-black;
 }
 
 .navbar li:last-child {
     margin-right: 0;
+}
+
+.dropdown-menu {
+    @apply relative;
+}
+
+.dropdown-menu:hover ul {
+    display: block;
+}
+
+.dropdown-menu:hover .dropdown-toggler::after {
+    content: url('images/icon-arrow-up.svg');
+}
+
+.dropdown-menu .dropdown-toggler::after {
+    content: url('images/icon-arrow-down.svg');
+    @apply pl-3;
+}
+
+.dropdown-items {
+    @apply lg:absolute lg:py-4 pt-4 shadow-none lg:bg-white top-[0px] lg:mt-10 px-7 whitespace-nowrap rounded-xl;
+}
+
+@media screen and (min-width: 1024px) {
+    .dropdown-items {
+        box-shadow: 0px 0px 50px 11px rgba(0,0,0,0.1);
+    }
+}
+
+.dropdown-items a::after {
+    content: '';
+}
+
+.dropdown-items li {
+    @apply py-2 mx-0 block;
+}
+
+.dropdown-items img {
+    @apply inline pr-3 w-[25px] h-auto;
+}
+
+/* Navbar mobile */
+
+/* Clients */
+.clients {
+    @apply lg:pt-36 flex pt-20;
+}
+
+.clients img{
+    @apply inline-block w-full h-full pr-10;
 }

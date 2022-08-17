@@ -12,41 +12,72 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
 </head>
-<body class="p-5 lg:p-10">
+<body>
 
-  <header class="flex justify-between items-center mb-7 lg:mb-10">
-    <img src="images/logo.svg" alt="Snap logo">
-    <div class="navbar">
-      <li>Features</li>
-      <li>Company</li>
-      <li>Careers</li>
-      <li>About</li>
+  <header class="flex justify-between items-center my-10 mx-5 max-w-7xl">
+    <div class="lg:flex items-start justify-between lg:justify-start w-full">
+      <img src="images/logo.svg" alt="Snap logo" class="float-left">
+      <img src="images/icon-menu.svg" alt="Menu togler" class="lg:hidden float-right">
+
+      <div class="bg-behind-nav-black lg:bg-transparent lg:relative w-full h-full fixed top-0 right-0 lg:block" id="mobile_nav">
+        <div class="flex lg:w-full w-2/3 justify-start lg:justify-between fixed py-5 lg:py-0 px-5 lg:px-0 lg:relative right-0 top-0 min-h-screen lg:min-h-max flex-col lg:flex-row bg-white lg:bg-transparent">
+          <img src="images/icon-close-menu.svg" alt="Close menu" class="h-10 w-10 mb-10 self-end block lg:hidden">
+          <ul class="navbar lg:ml-10 lg:block relative">
+            <li class="dropdown-menu">
+              <a href="#" class="dropdown-toggler">Features</a>
+              <ul class="dropdown-items right-0 hidden">
+                <li><a href="#"><img src="images/icon-todo.svg" alt="Todo Icon"> Todo List</a></li>
+                <li><a href="#"><img src="images/icon-calendar.svg" alt="Calendar Icon"> Calendar</a></li>
+                <li><a href="#"><img src="images/icon-reminders.svg" alt="Remoinders Icon"> Reminders</a></li>
+                <li><a href="#"><img src="images/icon-planning.svg" alt="Planning Icon"> Planning</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-menu">
+              <a href="#" class="dropdown-toggler">Company</a>
+              <ul class="dropdown-items left-0 hidden">
+                <li><a href="#">History</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <ul class="navbar lg:block mt-5 lg:mt-0">
+            <li><a href="#" class="block lg:inline text-center">Login</a></li>
+            <li><a href="#" class="block lg:inline text-center border-2 border-almost-black hover:border-black px-5 py-3 rounded-xl border-medium-gray">Register</a></li>
+          </ul> 
+        </div> 
+      </div>
     </div>
-    <ul class="navbar hidden lg:block">
-      <li><a href="#">Login</a></li>
-      <li><a href="#" class="border-2 border-almost-black px-5 py-3 rounded-xl">Register</a></li>
-    </ul>
-    <img src="images/icon-menu.svg" alt="Menu togler" class="lg:hidden">
   </header>
 
-  <main class="flex lg:flex-row-reverse items-center justify-center lg:max-w-5xl lg:mx-auto">
-    <picture>
+  <main class="flex lg:flex-row-reverse flex-col items-end justify-center lg:max-w-6xl lg:mx-auto mt-20">
+    
+    <picture class="lg:w-1/2 h-full w-full">
       <source media="(min-width: 1024px)" srcset="images/image-hero-desktop.png">
-      <img src="images/image-hero-mobile.png" alt="Hero image">
+      <img src="images/image-hero-mobile.png" alt="Hero image" class="mx-auto">
     </picture>
-    <div class="text-center mt-10 lg:text-left lg:mt-0 lg:pr-10">
+
+    <div class="text-center items-stretch mx-5 lg:text-left lg:w-1/2 lg:mr-28 mt-10 lg:mt-0">
       <h1 class="font-bold text-4xl lg:text-7xl"><span class="lg:block">Make</span> remote work</h1>
-      <p class="text-3xl py-5">
+      <p class="text-2xl py-5 text-medium-gray">
         Get your team in sync, no matter your location. Streamline processes, 
   create team rituals, and watch productivity soar.
       </p>
-      <a href="#" class="bg-almost-black px-5 py-3 text-almost-white rounded-xl tracking-widest mt-10 inline-block">Learn more</a>
+      <a href="#" class="bg-almost-black px-6 py-4 text-almost-white rounded-xl mt-10 inline-block font-bold text-lg hover:text-black border border-black hover:bg-transparent">Learn more</a>
+      <!-- <div class="clients">
+        <img src="images/client-databiz.svg" alt="Databiz logo">
+        <img src="images/client-audiophile.svg" alt="Audiophile logo">
+        <img src="images/client-meet.svg" alt="Meet logo">
+        <img src="images/client-maker.svg" alt="Maker logo">
+      </div> -->
     </div>
   </main>
 
-  <div class="text-center py-20">
+  <footer class="text-center pt-20">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
-  </div>
+  </footer>
 </body>
 </html>
