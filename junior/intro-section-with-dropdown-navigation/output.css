@@ -618,6 +618,10 @@ video {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -632,6 +636,10 @@ video {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .min-h-screen {
@@ -652,6 +660,10 @@ video {
 
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -686,8 +698,36 @@ video {
   justify-content: space-between;
 }
 
+.justify-items-end {
+  justify-items: end;
+}
+
 .self-end {
   align-self: flex-end;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-x-clip {
+  overflow-x: clip;
+}
+
+.overflow-y-clip {
+  overflow-y: clip;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .rounded-xl {
@@ -762,6 +802,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-4xl {
@@ -857,8 +901,14 @@ body {
   position: relative;
 }
 
-.dropdown-menu:hover ul {
+.dropdown-menu .active {
   display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  .dropdown-menu:hover ul {
+    display: block;
+  }
 }
 
 .dropdown-menu:hover .dropdown-toggler::after {
@@ -992,6 +1042,10 @@ body {
     display: none;
   }
 
+  .lg\:h-auto {
+    height: auto;
+  }
+
   .lg\:min-h-max {
     min-height: -webkit-max-content;
     min-height: -moz-max-content;
@@ -1024,6 +1078,18 @@ body {
 
   .lg\:justify-between {
     justify-content: space-between;
+  }
+
+  .lg\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .lg\:overflow-visible {
+    overflow: visible;
+  }
+
+  .lg\:overflow-y-hidden {
+    overflow-y: hidden;
   }
 
   .lg\:bg-transparent {

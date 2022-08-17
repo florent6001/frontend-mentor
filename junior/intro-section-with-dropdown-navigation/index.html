@@ -17,15 +17,15 @@
   <header class="flex justify-between items-center my-10 mx-5 max-w-7xl">
     <div class="lg:flex items-start justify-between lg:justify-start w-full">
       <img src="images/logo.svg" alt="Snap logo" class="float-left">
-      <img src="images/icon-menu.svg" alt="Menu togler" class="lg:hidden float-right">
+      <img src="images/icon-menu.svg" alt="Menu toggler" class="lg:hidden float-right cursor-pointer" onClick="toggleNavbar()">
 
-      <div class="bg-behind-nav-black lg:bg-transparent lg:relative w-full h-full fixed top-0 right-0 lg:block" id="mobile_nav">
-        <div class="flex lg:w-full w-2/3 justify-start lg:justify-between fixed py-5 lg:py-0 px-5 lg:px-0 lg:relative right-0 top-0 min-h-screen lg:min-h-max flex-col lg:flex-row bg-white lg:bg-transparent">
-          <img src="images/icon-close-menu.svg" alt="Close menu" class="h-10 w-10 mb-10 self-end block lg:hidden">
+      <div class="lg:bg-transparent lg:relative lg:block" id="behind_mobile_nav">
+        <div class="lg:flex lg:w-full w-2/3 justify-start lg:justify-between fixed py-5 lg:py-0 px-5 lg:px-0 lg:relative right-0 top-0 h-screen overflow-y-scroll lg:overflow-visible lg:h-auto flex-col lg:flex-row bg-white lg:bg-transparent hidden" id="mobile_nav">
+          <img src="images/icon-close-menu.svg" alt="Close menu" class="mb-10 w-10 h-10 self-end lg:hidden cursor-pointer" onClick="toggleNavbar()">
           <ul class="navbar lg:ml-10 lg:block relative">
             <li class="dropdown-menu">
-              <a href="#" class="dropdown-toggler">Features</a>
-              <ul class="dropdown-items right-0 hidden">
+              <a href="#" class="dropdown-toggler" data-dropdown="features_dropdown">Features</a>
+              <ul class="dropdown-items right-0 hidden" id="features_dropdown">
                 <li><a href="#"><img src="images/icon-todo.svg" alt="Todo Icon"> Todo List</a></li>
                 <li><a href="#"><img src="images/icon-calendar.svg" alt="Calendar Icon"> Calendar</a></li>
                 <li><a href="#"><img src="images/icon-reminders.svg" alt="Remoinders Icon"> Reminders</a></li>
@@ -33,8 +33,8 @@
               </ul>
             </li>
             <li class="dropdown-menu">
-              <a href="#" class="dropdown-toggler">Company</a>
-              <ul class="dropdown-items left-0 hidden">
+              <a href="#" class="dropdown-toggler" data-dropdown="company_dropdown">Company</a>
+              <ul class="dropdown-items left-0 hidden" id="company_dropdown">
                 <li><a href="#">History</a></li>
                 <li><a href="#">Our team</a></li>
                 <li><a href="#">Blog</a></li>
@@ -79,5 +79,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
