@@ -87,5 +87,5 @@ body {
 }
 
 .clients img{
-    @apply block max-w-full min-h-full;
+    @apply block px-2 w-1/4 max-h-full;
 }
