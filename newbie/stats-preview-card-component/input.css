@@ -24,5 +24,6 @@ h1 {
 
 .counter-text {
     font-family: "Inter", sans-serif;
-    @apply uppercase text-gray-500 pt-2;
+    @apply uppercase text-gray-500 text-xs lg:text-base
+     pt-2;
 }
