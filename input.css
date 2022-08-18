@@ -13,3 +13,7 @@
 a:hover {
     @apply underline text-white;
 }
+
+li {
+    list-style-type: disc;
+}

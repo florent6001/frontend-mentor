@@ -83,9 +83,9 @@ body {
 
 /* Clients */
 .clients {
-    @apply lg:pt-36 flex pt-20 w-full justify-between;
+    @apply lg:pt-36 flex pt-20 w-full justify-between items-center;
 }
 
 .clients img{
-    @apply block px-2 w-1/4 max-h-full;
+    @apply block px-2 w-1/4 h-full;
 }
