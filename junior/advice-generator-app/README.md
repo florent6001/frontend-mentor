@@ -25,7 +25,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [CHANGE](CHANGE)
+- Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-app-tailwindcss-and-vanillajs-HrMHDDmV3E](https://www.frontendmentor.io/solutions/advice-generator-app-tailwindcss-and-vanillajs-HrMHDDmV3E)
 - Live Site URL: [https://florent6001.github.io/frontend-mentor/junior/advice-generator-app](https://florent6001.github.io/frontend-mentor/junior/advice-generator-app)
 
 ## Built with
