@@ -48,7 +48,7 @@ body {
     }
 }
 
-.dropdown-menu:hover .dropdown-toggler::after {
+.dropdown-menu:hover .dropdown-toggler::after, .dropdown-menu .dropdown-toggler.active::after {
     content: url('images/icon-arrow-up.svg');
 }
 

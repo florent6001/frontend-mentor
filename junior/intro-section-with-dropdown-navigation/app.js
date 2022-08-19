@@ -15,10 +15,13 @@ var toggleNavbar = function () {
 
 var toggleDropdown = function() {
     target = document.getElementById(this.getAttribute('data-dropdown'));
-    if(target.classList.contains('active'))
+    if(target.classList.contains('active')) {
         target.classList.remove('active')
-    else
+        this.classList.remove('active')
+    } else {
         target.classList.add('active')
+        this.classList.add('active')
+    }
 }
 
 for (var i = 0; i < dropdown_togglers.length; i++) {
