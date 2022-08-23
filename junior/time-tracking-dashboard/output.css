@@ -777,12 +777,18 @@ section img {
 
 .section-content {
   width: 100%;
+  cursor: pointer;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: hsl(235 46% 20% / var(--tw-bg-opacity));
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.section-content:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 57 123 / var(--tw-bg-opacity));
 }
 
 .section-content h2 {
@@ -834,6 +840,35 @@ a.active {
 
 a {
   cursor: pointer;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-wrapper svg:hover {
+  fill: #fff;
+}
+
+.ellipsis-image {
+  -webkit-mask: url('images/icon-ellipsis.svg') no-repeat center / contain;
+          mask: url('images/icon-ellipsis.svg') no-repeat center / contain;
+  height: 1.25rem;
+  width: 1.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.ellipsis-image:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 1024px) {
