@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+    font-family: 'Rubik', sans-serif;
     @apply bg-body text-white;
 }
 
@@ -24,4 +25,24 @@ section img{
 
 .section-content h2{
     @apply py-5 text-xl;
+}
+
+.current-time {
+    @apply lg:text-5xl text-4xl;
+}
+
+.previous-time {
+    @apply lg:pt-5 text-pale-blue;
+}
+
+.times {
+    @apply flex items-center justify-between lg:block;
+}
+
+a.active {
+    @apply text-white;
+}
+
+a {
+    @apply cursor-pointer;
 }
