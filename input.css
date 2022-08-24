@@ -2,18 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.card {
-    @apply bg-slate-400 lg:m-5 my-5 p-10 rounded-xl w-full;
-}
-
-.card-title {
-    @apply uppercase text-xl text-white pb-5;
-}
-
-a:hover {
-    @apply underline text-white;
+a {
+    @apply text-blue-500 hover:underline;
 }
 
 li {
     list-style-type: disc;
+}
+
+.filters p {
+    @apply mx-2 py-2 px-5 border-2 rounded-xl cursor-pointer;
+}
+
+section {
+    @apply my-5;
+}
+
+h2 {
+    @apply text-2xl pb-3;
 }
