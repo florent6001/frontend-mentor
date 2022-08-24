@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+    <img src="images/logo.svg" alt="Splitter logo" class="p-10 mx-auto">
+    <div class="bg-white w-full rounded-xl px-10 py-5 mb-10 mt-0 lg:max-w-5xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div class="w-full">
+          <div class="flex justify-between items-center">
+            <label for="bill">Bill</label>
+            <p id="bill-error" class="text-red-500 text-sm"></p>
+          </div>
+          <input type="number" step="0.01" class="bill" placeholder="0" onkeyup="updateValue(this)" id="bill">
+          <label for="tip">Select Tip %</label>
+
+          <div class="mt-5 tip-buttons grid grid-cols-2 lg:grid-cols-3 gap-5">
+            <button onclick="updateValue(this)" value="5">5%</button>
+            <button onclick="updateValue(this)" value="10">10%</button>
+            <button onclick="updateValue(this)" value="15">15%</button>
+            <button onclick="updateValue(this)" value="25">25%</button>
+            <button onclick="updateValue(this)" value="50">50%</button>
+            <input type="text" placeholder="Custom" onkeyup="updateValue(this)" id="tip_percent">
+          </div>
+          <div class="flex justify-between items-center">
+            <label for="peoples">Number of People</label>
+            <p id="peoples-error" class="text-sm text-red-500"></p>
+          </div>
+          <input type="number" step="1" class="peoples" placeholder="0" onkeyup="updateValue(this)" id="peoples">
+        </div>
+        <div
+          class="w-full bg-very-dark-cyan rounded-xl text-white lg:p-10 px-10 mt-10 lg:mt-0 py-10 flex justify-between items-stretch flex-col">
+          <div>
+            <div class="flex justify-between items-center">
+              <div>
+                <p class="text-xl">Tip Amount</p>
+                <span class="text-sm text-light-grayish-cyan">/ person</span>
+              </div>
+              <div>
+                <p class="text-3xl text-strong-cyan" id="tip_amount"></p>
+              </div>
+            </div>
+            <div class="pt-8 flex justify-between items-center">
+              <div>
+                <p class="text-xl">Total</p>
+                <span class="text-sm text-light-grayish-cyan">/ person</span>
+              </div>
+              <div>
+                <p class="text-3xl text-strong-cyan" id="total_amount"></p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="bg-strong-cyan py-3 mt-5 text-very-dark-cyan text-xl uppercase w-full rounded-lg">Reset</button>
+        </div>
+      </div>
+      <div class="py-10 text-center">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
