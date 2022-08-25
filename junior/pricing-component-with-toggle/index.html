@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Pricing Component With toggle</title>
+  <link rel="stylesheet" href="output.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="min-h-screen flex justify-center items-center p-10">
+
+  <main class="max-w-5xl mx-auto">
+    <h1 class="text-center text-3xl py-5">Our Pricing</h1>
+    <div class="flex items-center justify-center py-10">
+      <p>Annually</p>
+      <div class="switch mx-5" onClick="updatePrice()">
+        <input type="checkbox" id="toggler" />
+        <span class="slider round"></span>
+      </div>
+      <p>Monthly</p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 pt-10">
+      <section>
+        <h2>Basic</h2>
+        <div class="price" id="basic_price">
+          &dollar;199,99
+        </div>
+        <p>500 GB Storage</p>
+        <p>2 Users Allowed</p>
+        <p>Send up to 3 GB</p>
+        <button class="bg-linear ">Learn More</button>
+      </section>
+
+      <section class="bg-linear text-white lg:scale-y-110">
+        <h2>Professional</h2>
+        <div class="price" id="professional_price">
+          &dollar;249,99
+        </div>
+        <p>1 TB Storage</p>
+        <p>5 Users Allowed</p>
+        <p>Send up to 10 GB</p>
+        <button class="text-blue bg-white">Learn More</button>
+      </section>
+
+      <section>
+        <h2>Master</h2>
+        <div class="price" id="master_price">
+          &dollar;399,99
+        </div>
+        <p>2 TB Storage</p>
+        <p>10 Users Allowed</p>
+        <p>Send up to 20 GB</p>
+        <button class="bg-linear">Learn More</button>
+      </section>
+    </div>
+
+    <div class="text-center py-5 lg:pt-20">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://florent-vandroy./fr" class="underline">Florent Vandroy</a>.
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

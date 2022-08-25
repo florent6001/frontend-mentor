@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Monserrat', sans-serif;
+  background-image: url('images/bg-top.svg');
+  background-position: top right -150%;
+  background-repeat: no-repeat;
+  @apply bg-very-dark-grayish-blue font-bold text-grayish-blue;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url('images/bg-top.svg'), url('images/bg-bottom.svg');
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+    @apply bg-very-dark-grayish-blue;
+  }
+}
+
+section {
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 1);
+  @apply w-full text-center p-10 rounded-xl bg-white shadow-lg; 
+}
+
+section h2 {
+  @apply text-xl;
+}
+
+section .price {
+  @apply text-6xl py-10;
+}
+
+section p {
+  @apply w-full border-t border-t-light-grayish-blue py-5; 
+}
+
+section button {
+  @apply w-full text-sm px-5 py-3 rounded-lg uppercase font-bold;
+}
+
+.text-blue {
+  color: hsl(237, 63%, 64%);
+}
+
+.bg-linear {
+  background: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+  @apply text-white;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2196F3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
