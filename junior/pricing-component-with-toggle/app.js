@@ -3,6 +3,11 @@ const basic_price = document.getElementById('basic_price')
 const professional_price = document.getElementById('professional_price')
 const master_price = document.getElementById('master_price')
 
+basic_price.innerHTML = '$199,99'
+professional_price.innerHTML = '$249,99'
+master_price.innerHTML = '$399,99'
+
+
 const updatePrice = () => {
   toggler.checked = !toggler.checked;
   if (toggler.checked) {
