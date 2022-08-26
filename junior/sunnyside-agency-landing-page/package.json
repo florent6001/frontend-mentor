@@ -1,0 +1,14 @@
+{
+  "name": "sunnyside-agency-landing-page",
+  "version": "1.0.0",
+  "description": "SunnySide Agency Landing Page for Frontend-Mentor",
+  "main": "index.js",
+  "author": "Florent Vandroy",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  }
+}
