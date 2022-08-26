@@ -684,8 +684,8 @@ video {
   text-align: center;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -1059,5 +1059,10 @@ footer .custom-filter {
 
   .lg\:text-right {
     text-align: right;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
