@@ -25,8 +25,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/time-tracking-dashboard-tailwindcss-and-vanillajs-3JuM6uhD4H](https://www.frontendmentor.io/solutions/time-tracking-dashboard-tailwindcss-and-vanillajs-3JuM6uhD4H)
-- Live Site URL: [https://florent6001.github.io/frontend-mentor/junior/time-tracking-dashboard/](https://florent6001.github.io/frontend-mentor/junior/time-tracking-dashboard/)
+- Solution URL: [https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-vanillajs-and-tailwindcss-ybNaQVi53k](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-vanillajs-and-tailwindcss-ybNaQVi53k)
+- Live Site URL: [https://florent6001.github.io/frontend-mentor/junior/sunnyside-agency-landing-page-7yVs3B6ef/](https://florent6001.github.io/frontend-mentor/junior/sunnyside-agency-landing-page-7yVs3B6ef/)
 
 ## Built with
 
