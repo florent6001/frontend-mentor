@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+
+  <div class="max-w-5xl mx-auto lg:pt-20 lg:px-5 lg:pb-0 p-10">
+
+    <div class="lg:flex justify-between items-center pb-12">
+
+      <div class="flex justify-between items-center w-full">
+        <img src="assets/images//logo.svg" alt="Logo of the homepage">
+
+        <div class="lg:hidden">
+          <a onclick="openMenu()" class="cursor-pointer">
+            <img src="assets/images/icon-menu.svg" alt="Menu icon">
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:relative hidden lg:block fixed lg:bg-transparent bg-black bg-opacity-50 top-0 left-0 w-screen h-screen lg:h-auto mx-auto my-auto lg:w-full" id="navbar">
+        <div class="fixed lg:relative h-screen lg:h-auto w-[55%] lg:w-full bg-white lg:bg-transparent top-0 right-0">
+          <a onClick="closeMenu()" class="cursor-pointer">
+            <img src="assets/images/icon-menu-close.svg" alt="Menu icon close" id="navbar-close" class="lg:hidden float-right p-5">
+          </a>
+          <ul class="flex flex-col lg:flex-row justify-center items-start lg:justify-end h-[80%] lg:h-full">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="lg:flex mb-10">
+      <div class="lg:w-2/3 lg:mr-5 items-center">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="" class="pb-5">
+
+        <div class="lg:flex">
+          <h1 class="text-5xl font-extrabold lg:w-1/2">The Bright Future of Web 3.0?</h1>
+
+          <div class="lg:w-1/2 lg:px-3 lg:pt-0 pt-5">
+            <p class="text-dark-grayish-blue pb-5 text-bold">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+            </p>
+
+            <a href="#" class="inline-block hover:bg-very-dark-blue bg-soft-red text-off-white px-10 py-2 rounded-xs uppercase font-bold text-sm tracking-[2px]">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:w-1/3 bg-very-dark-blue p-5 mt-20 lg:mt-0">
+        <h2 class="text-soft-orange text-4xl text-extrabold">New</h2> 
+          <article>
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+
+          <article>
+            <h3>The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </article>
+
+          <article>
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </article>
+    </div>
+
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-10">
+      <div class="flex">
+        <img src="assets/images/image-retro-pcs.jpg" alt="Image #1" class="w-1/4 lg:w-1/3 h-auto">
+        <div class="px-5">
+          <span class="text-3xl text-grayish-blue">01</span>
+          <h4 class="font-extrabold py-1 hover:text-soft-red hover:cursor-pointer">
+            Reviving Retro PCs
+          </h4>
+          <p class="text-dark-grayish-blue">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+
+      <div class="flex">
+        <img src="assets/images/image-top-laptops.jpg" alt="Image #2" class="w-1/4 lg:w-1/3 h-auto">
+        <div class="px-5">
+          <span class="text-3xl text-grayish-blue">02</span>
+          <h4 class="font-extrabold py-1 hover:text-soft-red hover:cursor-pointer">
+            Top 10 Laptops of 2022
+          </h4>
+          <p class="text-dark-grayish-blue">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+
+      <div class="flex">
+        <img src="assets/images/image-gaming-growth.jpg" alt="Image #3" class="w-1/4 lg:w-1/3 h-auto">
+        <div class="px-5">
+          <span class="text-3xl text-grayish-blue">03</span>
+          <h4 class="font-extrabold py-1 hover:text-soft-red hover:cursor-pointer">
+            The Growth of Gaming
+          </h4>
+          <p class="text-dark-grayish-blue">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center pt-20">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://florent-vandroy.fr/" class="underline">Florent Vandroy</a>.
+    </div>
+  </div>
+
+  <script>
+
+    let menu = document.getElementById('navbar');
+    function openMenu() {
+      menu.classList.remove('hidden')
+      menu.classList.add('block')
+    }
+
+    function closeMenu() {
+      menu.classList.add('hidden')
+      menu.classList.remove('block')
+    }
+
+  </script>
+
+</body>
+</html>

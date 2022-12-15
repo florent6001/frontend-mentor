@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+h1, h2, h3, h4, h5, p, ul, li {
+    font-family: 'Inter', sans-serif;
+}
+
+ul li {
+    @apply px-4 text-dark-grayish-blue font-semibold;
+}
+
+ul li a:hover{
+    @apply text-soft-red;
+}
+
+@media screen and (max-width: 1000px) {
+    ul li {
+        @apply my-2 mx-5;
+    }
+}
+
+p {
+    font-size: 15px;
+}
+
+article {
+    @apply py-5 border-b border-grayish-blue;
+}
+
+article:last-of-type {
+    @apply border-none;
+}
+
+article h3 {
+    @apply text-off-white font-extrabold text-lg;
+}
+
+article h3:hover {
+    @apply text-soft-orange cursor-pointer;
+}
+
+article p {
+    @apply text-grayish-blue pt-3;
+}

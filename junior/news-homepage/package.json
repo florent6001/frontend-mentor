@@ -1,0 +1,14 @@
+{
+  "name": "news-homepage",
+  "version": "1.0.0",
+  "description": "News homepage by frontend-mentor",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "author": "Florent Vandroy",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
