@@ -25,7 +25,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [CHANGEME](CHANGEME)
+- Solution URL: [https://www.frontendmentor.io/solutions/news-homepage-X5n_X8ZpG9](https://www.frontendmentor.io/solutions/news-homepage-X5n_X8ZpG9)
 - Live Site URL: [https://florent6001.github.io/frontend-mentor/junior/news-homepage/](https://florent6001.github.io/frontend-mentor/junior/news-homepage/)
 
 ## Built with
