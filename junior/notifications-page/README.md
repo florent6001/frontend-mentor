@@ -32,7 +32,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Links
 
-- Solution URL: [CHANGEME](CHANGEME)
+- Solution URL: [https://www.frontendmentor.io/solutions/notifications-page-d3g5-SHERg](https://www.frontendmentor.io/solutions/notifications-page-d3g5-SHERg)
 - Live Site URL: [https://florent6001.github.io/frontend-mentor/junior/notifications-page/](https://florent6001.github.io/frontend-mentor/junior/notifications-page/)
 
 ## Built with
