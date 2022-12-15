@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+  <main class="flex flex-col justify-center min-h-screen h-full p-10 max-w-3xl mx-auto">
+    
+    <div class="flex w-full justify-between pb-8">
+      <h1 class="font-extrabold text-lg">Notifications <span class="bg-blue py-1 px-3 rounded-lg text-white">3</span></h1>
+      <button class="text-gray-500 cursor-pointer font-semibold">Mark all as read</button>
+    </div>
+
+    <section id="notifications">
+      <div class="unread">
+        <img src="assets/images/avatar-mark-webber.webp" alt="Mark webber">
+        <div>
+          <p>
+            <span class="name">Mark Webber</span> reacted to your recent post <span class="post-name">My first tournament today!</span>
+          </p>
+          <small>1m ago</small>
+        </div>
+      </div>
+
+      <div class="unread">
+        <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray">
+        <div>
+          <p>
+            <span class="name">Angela Gray</span> followed you
+          </p>
+          <small>5m ago</small>
+        </div>
+      </div>
+
+      <div class="unread">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob thompson">
+        <div>
+          <p>
+            <span class="name">Jacob Thompson</span> has joined your group <a href="#">Chess Club</a>
+          </p>
+          <small>1 day ago</small>
+        </div>
+      </div>
+
+      <div>
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky hasanuddin">
+        <div>
+          <p>
+            <span class="name">Rizky Hasanuddin</span> sent you a private message
+          </p>
+          <small>5 days ago</small>
+          <span class="border rounded-lg block border-gray-300 p-3 my-3 hover:bg-[#e5effa88]">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith">
+        <div>
+          <p>
+            <span class="name">Kimberly Smith</span> commented on your picture
+          </p>
+          <small>1 week ago</small>
+        </div>
+        <img src="assets/images/image-chess.webp" alt="Chess picture">
+      </div>
+
+      <div>
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson">
+        <div>
+          <p>
+            <span class="name">Nathan Peterson</span> reacted to your recent post <span class="post-name">5 end-game strategies to increase your win rate</span>
+          </p>
+          <small>2 weeks ago</small>
+        </div>
+      </div>
+
+      <div>
+        <img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim">
+        <div>
+          <p>
+            <span class="name">Anna Kim</span> left the group <a href="#">Chess Club</a>
+          </p>
+          <small>2 weeks ago</small>
+        </div>
+      </div>
+    </section>
+    
+    <div class="text-center pt-20">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br />
+      Coded by <a href="https://florent-vandroy.fr/" class="hover:underline">Florent Vandroy</a>.
+    </div>
+  </main>
+</body>
+</html>

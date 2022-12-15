@@ -1,0 +1,15 @@
+{
+  "name": "notifications-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "author": "Florent Vandroy",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+* {
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+}
+
+#notifications > div {
+    @apply flex items-start justify-start py-3 px-5 my-3 rounded-lg;
+}
+
+#notifications > div > div {
+    @apply w-full;
+}
+
+#notifications .unread {
+    background-color: #e5effa88;
+}
+
+#notifications .unread p::after{
+    @apply absolute mt-2 ml-[5px] h-2 w-2 bg-red-500 rounded-full;
+    content: ""
+}
+
+#notifications .unread small::before {
+    display: inline;
+}
+
+#notifications .name {
+    @apply font-extrabold text-black;
+}
+
+#notifications small {
+    @apply text-gray-500 text-sm pt-1 px-3;
+}
+
+#notifications img {
+    @apply h-14;
+}
+
+#notifications p {
+    @apply px-3 text-gray-500;
+}
+
+#notifications small {
+    @apply block;
+}
+
+#notifications p a {
+    @apply text-blue font-extrabold;
+} 
+
+#notifications .post-name {
+    @apply text-gray-700 font-bold;
+}
+
+#notifications .post-name:hover, #notifications .name:hover {
+    @apply cursor-pointer text-blue;
+}
